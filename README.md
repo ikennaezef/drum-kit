@@ -11,5 +11,5 @@ On this drum kit app, you can play drum sounds either by typing the specified ke
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github code](https://github.com/ikennaezef/drum-kit)
 - Live Site URL: (https://ikennaezef.github.io/drum-kit/)
