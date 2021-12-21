@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Drum Kit</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header id="header">
+			<h1>My Drum Kit</h1>
+			<h4>Press the keys to make drum sounds.</h4>
+		</header>
+		<div class="keys">
+			<div class="key" data_keycode="65">
+				<kbd>A</kbd>
+				<span>Kick 1</span>
+			</div>
+			<div class="key" data_keycode="83">
+				<kbd>S</kbd>
+				<span>Kick 2</span>
+			</div>
+			<div class="key" data_keycode="68">
+				<kbd>D</kbd>
+				<span>Tom</span>
+			</div>
+			<div class="key" data_keycode="70">
+				<kbd>F</kbd>
+				<span>Snare</span>
+			</div>
+			<div class="key" data_keycode="71">
+				<kbd>G</kbd>
+				<span>Chimes</span>
+			</div>
+			<div class="key" data_keycode="72">
+				<kbd>H</kbd>
+				<span>Hat</span>
+			</div>
+			<div class="key" data_keycode="74">
+				<kbd>J</kbd>
+				<span>Cymbal</span>
+			</div>
+			<div class="key" data_keycode="75">
+				<kbd>K</kbd>
+				<span>Clap</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="sounds">
+		<audio src="sounds/808bd.wav" data_keycode="65"></audio>
+		<audio src="sounds/dancebd.wav" data_keycode="83"></audio>
+		<audio src="sounds/ambient_tom_1.wav" data_keycode="68"></audio>
+		<audio src="sounds/acoustic_snare.wav" data_keycode="70"></audio>
+		<audio src="sounds/pipechimes.wav" data_keycode="71"></audio>
+		<audio src="sounds/squirt-hat.wav" data_keycode="72"></audio>
+		<audio src="sounds/curiouscym1.wav" data_keycode="74"></audio>
+		<audio src="sounds/707-clap.wav" data_keycode="75"></audio>
+	</div>
+
+	<footer class="footer">
+		<p>Made by Ikenna &copy;2021</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
